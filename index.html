@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button id="theme-btn" aria-label="Toggle dark mode">Dark Mode</button>
+
+    <main>
+    <h1>Welcome to Worldy</h1>
+     <p class="subtitles">Go For It.</p>
+    
+    <form id="search-form">
+       <label for="search-input" class="visually-hidden">Search a word</label>
+       <input type="text" placeholder="search a word" id="search-input" name="search-input" autocomplete="off">  
+        <button type="submit" id="searchButton">Search</button>
+    </form>
+     <div id="error" role="alert"></div>
+     
+     <div id="content-wrapper"> 
+
+    <div id="results"></div>
+    
+
+     <div id="favorites">
+        <h3>Saved Words</h3>
+        <ul id="favorites-list"></ul>
+     </div>
+
+   
+
+   
+
+    </main>
+
+
+
+<footer>&copy; 2026 Worldly. All rights reserved.</footer>
+   
+  <script src="js/index.js"></script> 
+</body>
+</html>
